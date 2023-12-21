@@ -1,0 +1,40 @@
+@import 'fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;  
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* root start */
+
+:root {
+  --DM700:'DM-Sans-Bold';
+  --M400:'Mulish-Regular';
+  --gray: #696871;
+  --black: #19191B;
+  --orange: #FF7143;
+  --blue: #5454D4;
+  --lightGray: #F8F8F8;
+  --darkOrange: #9F3919;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* root end */
+/* ************************** */
+
+p {
+    font-family: var(--DM700);
+}
+
+h1 {
+    font-family: var(--M400);
+}
